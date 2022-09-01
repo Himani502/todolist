@@ -17,11 +17,6 @@ class _TodoScreenState extends State<TodoScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        /*decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage('assets/images/pattern-hd.jpg'),
-              fit: BoxFit.cover),
-        ),*/
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           child: Column(
